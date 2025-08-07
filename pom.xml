@@ -96,15 +96,15 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <id>nexus</id>
-	      <name>Mchaitanya-snapshot</name>
-	      <url>http://3.16.49.38:8081/repository/chaitanya-snapshot/</url>
+	      <id>nexus-releases</id>
+	      <name>Chaitanya Release Repository</name>
+	      <url>http://3.16.49.38:8081/repository/chaitanya-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>chaitanya-release </name>
-	      <url>http://3.16.49.38:8081/repository/chaitanya-releases/</url>
+	      <id>nexus-snapshots</id>
+	      <name>Chaitanya Snapshot Repository</name>
+	      <url>http://3.16.49.38:8081/repository/chaitanya-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
